@@ -4,6 +4,7 @@ import {
   QuoteSection,
   BenefitsSection,
   LazyAnimalsSection,
+  SeriesRecommendationSection,
   CtaSection,
   Footer,
 } from "@/components/LazyClub";
@@ -17,6 +18,7 @@ import {
  * - Секция с цитатами о лени (QuoteSection)
  * - Блок о преимуществах лени (BenefitsSection)
  * - Блок о ленивых животных и эволюции лени (LazyAnimalsSection)
+ * - Рекомендации сериалов для ленивого просмотра (SeriesRecommendationSection)
  * - Призыв к действию (CtaSection)
  * - Подвал сайта (Footer)
  */
@@ -28,6 +30,7 @@ const HomePage = () => {
       <QuoteSection />
       <BenefitsSection />
       <LazyAnimalsSection />
+      <SeriesRecommendationSection />
       <CtaSection />
       <Footer />
     </div>
