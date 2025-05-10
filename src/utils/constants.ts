@@ -1,29 +1,28 @@
-
 /**
  * Основные цвета сайта
  */
 export const COLORS = {
-  PRIMARY: '#9b87f5',
-  PRIMARY_DARK: '#7E69AB',
-  DARK: '#1A1F2C',
-  TEXT: '#403E43',
-  TEXT_SECONDARY: '#8A898C',
-  BG_LIGHT: '#F6F6F7',
-  BG_WHITE: '#ffffff',
-  PURPLE_LIGHT: '#E5DEFF',
-  PEACH: '#FDE1D3',
-  GREEN_LIGHT: '#F2FCE2',
-  BORDER_LIGHT: '#F1F1F1',
+  PRIMARY: "#9b87f5",
+  PRIMARY_DARK: "#7E69AB",
+  DARK: "#1A1F2C",
+  TEXT: "#403E43",
+  TEXT_SECONDARY: "#8A898C",
+  BG_LIGHT: "#F6F6F7",
+  BG_WHITE: "#ffffff",
+  PURPLE_LIGHT: "#E5DEFF",
+  PEACH: "#FDE1D3",
+  GREEN_LIGHT: "#F2FCE2",
+  BORDER_LIGHT: "#F1F1F1",
 };
 
 /**
  * Основные маршруты сайта
  */
 export const ROUTES = {
-  HOME: '/',
-  TIPS: '/tips',
-  GALLERY: '/gallery', 
-  SHOP: '/shop',
+  HOME: "/",
+  TIPS: "/tips",
+  GALLERY: "/gallery",
+  SHOP: "/shop",
 };
 
 /**
@@ -40,4 +39,43 @@ export const LAZY_QUOTES = [
   "Ленивый человек найдёт самый короткий путь к цели",
   "Отдых — это не роскошь, а необходимость для ума и тела",
   "Иногда лучшая продуктивность — это полное бездействие",
+];
+
+/**
+ * Информация о ленивых животных
+ */
+export const LAZY_ANIMALS = [
+  {
+    id: 1,
+    name: "Ленивец",
+    description:
+      "Мастер медленной жизни. Спит до 20 часов в сутки и перемещается со скоростью до 0,27 км/ч.",
+    funFact:
+      "Ленивцы настолько медлительны, что на их шерсти вырастают водоросли, которые служат камуфляжем.",
+    image:
+      "https://images.unsplash.com/photo-1576502733340-a490644c0961?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    color: "bg-[#F2FCE2]",
+  },
+  {
+    id: 2,
+    name: "Коала",
+    description:
+      "Спит до 22 часов в сутки и тратит остальное время на еду и переваривание эвкалипта.",
+    funFact:
+      "Мозг коалы усох в процессе эволюции, чтобы экономить энергию. Настоящий ленивец в мире энергосбережения!",
+    image:
+      "https://images.unsplash.com/photo-1551957402-e7fcfb6c3951?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    color: "bg-[#E5DEFF]",
+  },
+  {
+    id: 3,
+    name: "Панда",
+    description:
+      "Ест бамбук до 12 часов в день, а остальное время либо спит, либо просто отдыхает.",
+    funFact:
+      "Панды тратят так мало энергии, что могут позволить себе питаться только бамбуком — пищей с низкой питательной ценностью.",
+    image:
+      "https://images.unsplash.com/photo-1527118732049-c88155f2107c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    color: "bg-[#FDE1D3]",
+  },
 ];

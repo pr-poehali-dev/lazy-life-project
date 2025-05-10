@@ -1,21 +1,22 @@
-
-import { 
+import {
   Header,
   HeroSection,
   QuoteSection,
   BenefitsSection,
+  LazyAnimalsSection,
   CtaSection,
-  Footer
+  Footer,
 } from "@/components/LazyClub";
 
 /**
  * Главная страница сайта "Ленивый клуб"
- * 
+ *
  * Страница разделена на несколько основных секций:
  * - Шапка сайта (Header)
  * - Герой-секция с основным посланием (HeroSection)
  * - Секция с цитатами о лени (QuoteSection)
  * - Блок о преимуществах лени (BenefitsSection)
+ * - Блок о ленивых животных и эволюции лени (LazyAnimalsSection)
  * - Призыв к действию (CtaSection)
  * - Подвал сайта (Footer)
  */
@@ -26,6 +27,7 @@ const HomePage = () => {
       <HeroSection />
       <QuoteSection />
       <BenefitsSection />
+      <LazyAnimalsSection />
       <CtaSection />
       <Footer />
     </div>
